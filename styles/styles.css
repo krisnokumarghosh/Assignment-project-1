@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+  /* nav section */
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  align-items: center;
+}
+.logo{
+  width: 139px;
+  height: 60px;
+}
+.menu ul{
+  display: flex;
+  gap: 32px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  list-style-type: none;
+}
+.menu ul a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+ .nav-button button{
+  border: 0px;
+  border-radius: 4px;
+  width: 164px;
+  height: 44px;
+  background-color: #469165;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* banner section  */
+
+#banner{
+  height: 674px;
+  background: url("../assets/hero-bg.png");
+  background-size: cover;
+}
+
+.banner-container{
+  text-align: center;
+  justify-content: center;
+  padding: 115.5px 120px 179.5px;
+
+}
+.top-button button{
+  width: 229px;
+  height: 35px;
+  border: none;
+  border-radius: 1000px;
+  background-color: #FFFFFF;
+  color: #469165;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px 8px 34px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.banner-text h1{
+  line-height: 84px;
+  font-weight: bold;
+  font-size: 72px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.half-green-text{
+  color: #30B868;
+}
+.banner-text p{
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.bottom-button button{
+  
+  gap: 16px;
+  border-radius: 4px;
+  height: 52px;
+  margin-top: 32px;
+  margin-right: 16px;
+  cursor: pointer;
+  
+}
+.button-start{
+  border: none;
+   width: 251px;
+   padding: 16.5px 46px 16.5px 16px;
+   font-size: 16px;
+   font-weight: 600;
+   color: #FFFFFF;
+   background-color: #469165;
+}
+.button-see{
+  padding: 16.5px 16px 16.5px 46px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid ;
+}
+
+/* notes section  */
+
+#notes{
+  height: 448px;
+  text-align: center;
+  background-color: rgba(238, 232, 225, 0.068);
+}
+.note-head{
+  height: 116px;
+ padding-top: 35px;
+}
+.note-head h1{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+}
+.note-head p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+.cards{
+  display: flex;
+  gap: 24px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+  background-color: #FFFFFF;
+}
+.common{
+  height: 300px;
+  width: 322px;
+  box-shadow: 8px 8px 8px 8px rgba(233, 224, 224, 0.438);
+  border-radius: 8px;
+}
+.common img{
+  background-color: #F95555;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px 30px;
+  padding: 14.4px 13.96px;
+  margin-top: 69.5px;
+}
+.common h3{
+  font-size: 24px;
+  font-weight: 600;
+  width: 274px;
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 16px;
+  padding: 0 auto;
+  color: #001931;
+}
+.different{
+  height: 58px;
+}
+.common p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin: 0 24px;
+}

@@ -47,6 +47,11 @@ nav{
   color: #FFFFFF;
   cursor: pointer;
 }
+.nav-button button:hover{
+  background-color: transparent;
+  color: #469165;
+  border: 1px solid #30B868;
+}
 
 /* banner section  */
 
@@ -75,6 +80,11 @@ nav{
   margin-bottom: 16px;
   cursor: pointer;
 }
+.top-button button:hover{
+  background-color: transparent;
+  color: #469165;
+  border: 1px solid #30B868;
+}
 .banner-text h1{
   line-height: 84px;
   font-weight: bold;
@@ -99,8 +109,12 @@ nav{
   height: 52px;
   margin-top: 32px;
   margin-right: 16px;
-  cursor: pointer;
-  
+  cursor: pointer; 
+}
+.button-start:hover{
+  background-color: transparent;
+  color: #469165;
+  border: 1px solid #FFFFFF;
 }
 .button-start{
   border: none;
@@ -119,13 +133,15 @@ nav{
   background-color: transparent;
   border: 1px solid ;
 }
+.button-see:hover{
+  background-color: #469165;
+}
 
 /* notes section  */
 
 #notes{
   height: 448px;
   text-align: center;
-  background-color: rgba(238, 232, 225, 0.068);
 }
 .note-head{
   height: 116px;
@@ -148,7 +164,7 @@ nav{
   align-items: center;
   justify-content: center;
   margin-top: 44px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .common{
   height: 300px;
@@ -183,4 +199,49 @@ nav{
   line-height: 20px;
   color: #627382;
   margin: 0 24px;
+}
+
+/* brain-banner-section */
+
+#brain-section{
+  height: 840px;
+}
+.brain-container{
+  width: 1360px;
+  height: 600px;
+  display: flex ;
+  margin: 120px auto;
+  align-items: center;
+  gap: 60px;
+  
+}
+
+.brain-header-text h6{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #30B868;
+  margin-bottom: 16px;
+}
+.brain-header-text h1{
+   font-size: 48px;
+   font-weight: bold;
+   color: #001931;
+   margin-bottom: 16px;
+}
+.brain-header-text p{
+      font-size: 16px;
+      line-height: 20px;
+      color: #627382;
+      margin-bottom: 40px;
+}
+.check-items{
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.check-items p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #001931;
 }

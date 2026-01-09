@@ -76,7 +76,7 @@ nav{
   color: #469165;
   font-size: 16px;
   font-weight: 500;
-  padding: 8px 12px 8px 34px;
+  padding: 8px;
   margin-bottom: 16px;
   cursor: pointer;
 }
@@ -119,14 +119,15 @@ nav{
 .button-start{
   border: none;
    width: 251px;
-   padding: 16.5px 46px 16.5px 16px;
+   padding:  16px;
    font-size: 16px;
    font-weight: 600;
    color: #FFFFFF;
    background-color: #469165;
 }
 .button-see{
-  padding: 16.5px 16px 16.5px 46px;
+  padding: 16px;
+  width: 198px;
   font-size: 16px;
   font-weight: 600;
   color: #FFFFFF;
@@ -249,13 +250,12 @@ nav{
 /* early access section */
 
 #early-Access-section{
-  /* border: 1px solid red; */
+  
   height: 506px;
-  /* align-items: center; */
-  /* justify-content: center; */
+ 
 }
 .early-container{
-  /* border: 1px solid red; */
+ 
   height: 384px;
   background-color: #F7F6F2;
   text-align: center;
@@ -275,8 +275,12 @@ nav{
   margin-bottom: 24px;
 }
 .button-content{
-  /* display: flex; */
+  
   gap: 10px;
+}
+.button-content img{
+height: 20px;
+width: 20px;
 }
 .down-part button{
   margin-bottom: 16px;
@@ -289,7 +293,7 @@ nav{
   font-weight: 600;
   color: #FFFFFF;
   cursor: pointer;
-  padding: 16px;
+  padding: 17px;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.24);
 }
 .button-content:hover{
@@ -301,8 +305,7 @@ nav{
 /* footer section */
 
 footer{
-  /* border: 1px solid red; */
-  /* height: 348px; */
+ 
   background-color: #001931;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -339,6 +342,6 @@ footer{
 .line{
   height: 1px;
   width: 80%;
-  background-color: #627382;
+  background-color: #62738257;
  margin: 0 auto;
 }

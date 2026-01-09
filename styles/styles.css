@@ -291,3 +291,8 @@ nav{
   cursor: pointer;
   padding: 16px;
 }
+.button-content:hover{
+   background-color: transparent;
+  color: #469165;
+  border: 1px solid #30B868;
+}

@@ -110,6 +110,7 @@ nav{
   margin-top: 32px;
   margin-right: 16px;
   cursor: pointer; 
+ 
 }
 .button-start:hover{
   background-color: transparent;
@@ -124,6 +125,7 @@ nav{
    font-weight: 600;
    color: #FFFFFF;
    background-color: #469165;
+   align-items: center;
 }
 .button-see{
   padding: 16px;
@@ -344,4 +346,148 @@ footer{
   width: 80%;
   background-color: #62738257;
  margin: 0 auto;
+}
+
+
+.top-button button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.down-button{
+  display: flex;
+}
+
+.button-content{
+  margin: 0 auto;
+  width: 194px;
+  height: 52px;
+}
+.button-content img{
+  height: 20px;
+  width: 20px;
+  margin-right: 16px;
+}
+.nav{
+  position: fixed;
+  top: 50px;
+}
+
+.display-none{
+  display: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+   nav, .menu ul , .cards , .brain-container{
+    flex-direction: column;
+  }
+  .menu ul{
+    align-items: center;
+  }
+  .menu ul{
+    gap: 9px;
+    padding-bottom: 15px;
+  }
+  .nav-button button{
+    margin-top: 5px;
+  }
+  #banner{
+    height: 100%;
+    width: 100%;
+  }
+  .banner-container{
+    padding: 40px;
+  }
+  .banner-text h1{
+    font-size: 56px;
+  }
+  .bottom-button button{
+    margin-top: 10px;
+  }
+  .note-head h1{
+    font-size: 35px;
+  }
+  .note-head p{
+    line-height: 16px;
+  }
+  .cards{
+    height: 100%;
+    gap: 10px;
+  }
+  #brain-section{
+    height: 100%;
+    margin-top: 1000px;
+  }
+  .brain-container{
+   width: 100%;
+  }
+  .knowledge-image img{
+    width: 100%;
+  }
+  .brain-header-text h6{
+    text-align: center;
+  }
+  .brain-header-text h1{
+    font-size: 38px;
+    text-align: center;
+  }
+  .brain-header-text p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .check-items p{
+    font-size: 14px;
+  }
+  #early-Access-section{
+    margin-top: 300px;
+  }
+  .early-container{
+    /* height: 100%; */
+    width: 100%;
+    margin: 0 auto;
+  }
+  .early-container{
+    padding: 40px;
+  }
+  .upper-text h1{
+    font-size: 35px;
+  }
+  
+  .upper-content{
+    padding: 50px;
+  }
+  .copyright p{
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .cards , .brain-container{
+    flex-direction: column;
+    height: 100%;
+  }
+
+   #brain-section{
+    margin-top: 1100px;
+  }
+  .brain-container{
+    width: 100%;
+  }
 }

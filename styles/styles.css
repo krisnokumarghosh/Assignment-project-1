@@ -441,12 +441,15 @@ footer{
     text-align: center;
   }
   .brain-header-text p{
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     margin-bottom: 16px;
   }
   .check-items p{
     font-size: 14px;
+  }
+  .check-items img{
+    height: 20px;
   }
   #early-Access-section{
     margin-top: 400px;
